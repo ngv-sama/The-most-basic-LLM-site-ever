@@ -11,7 +11,7 @@ Answer: Let's think step by step."""
 prompt = PromptTemplate(template=template, input_variables=["question"])
 
 llm_chain = LLMChain(prompt=prompt,
-                     llm=HuggingFaceHub(repo_id="mistralai/Mistral-7B-v0.1",
+                     llm=HuggingFaceHub(repo_id="google/flan-t5-large",
                                         model_kwargs={"temperature": 0,
                                                       "max_length": 64}))
 
