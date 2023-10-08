@@ -36,5 +36,5 @@ if st.button("Send"):
     if user_input:
         history = LLm(user_input)
         st.write(f"You: {user_input}")
-        st.write(f"Ballayya-"Aye Ra Dabidi Dibidey": {history['answers'][-1]}")
+        st.write(f"Ballayya-Aye Ra Dabidi Dibidey": {history['answers'][-1]}")
 
